@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD9A1E1954351C982499DD2CC08BFD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2F6B5D0B2683AFB85BEF9E73EDC9B101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		340EAA14D0C15AAB24898E8E4F6FD328 /* zhSettingsViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8D46C1FF569FAB57D44C15F6EF0F60 /* zhSettingsViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341453B96A4AF38896E41FB2AC39B6DF /* Pods-zhSettingsViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A305C6D263FE25A3E5D2C8835AAE2D /* Pods-zhSettingsViewController_Example-dummy.m */; };
+		43DE648A572B869F09C2DA6DE2445394 /* zhSettingsViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831D7055F6CC9FB6DE738AF3DF4F698B /* zhSettingsViewController-dummy.m */; };
+		73A79D8BF3C4FB436D2E5EA6339572A9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4802F5C871A1EED86986BB822806CD50 /* ReplaceMe.m */; };
+		86D46B41B1630A200A7E56F0EC7F0C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D3E6CCB5A1D86DB626602DCC117903F4 /* Pods-zhSettingsViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02D6A92D936A24DC558BC4A3FB83F5F6 /* Pods-zhSettingsViewController_Tests-dummy.m */; };
+		E8B0FE86550C6BFA5FD7347CEE6ACA38 /* Pods-zhSettingsViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E5B43EDFE01900E2006FF981E43F23 /* Pods-zhSettingsViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD2EC96D0E9E19011D3E3F86BFA3A742 /* Pods-zhSettingsViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED0256DFF371E24FD4503B72FC122F1 /* Pods-zhSettingsViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FA1A6D1B432F66BB966587677BFDD25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D4E4E3659E1AB13082D013EA92A50D;
+			remoteInfo = zhSettingsViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00F5252F36CEA67A776754C43D1A9513 /* Pods-zhSettingsViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zhSettingsViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		02D6A92D936A24DC558BC4A3FB83F5F6 /* Pods-zhSettingsViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zhSettingsViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		0A8D46C1FF569FAB57D44C15F6EF0F60 /* zhSettingsViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zhSettingsViewController-umbrella.h"; sourceTree = "<group>"; };
+		35E5B43EDFE01900E2006FF981E43F23 /* Pods-zhSettingsViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zhSettingsViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		3C27667BC55152AFCDA3B4A6E243FBE3 /* zhSettingsViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "zhSettingsViewController-prefix.pch"; sourceTree = "<group>"; };
+		3C9B800548C6FBFD8BD91A56535587AF /* Pods-zhSettingsViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zhSettingsViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4802F5C871A1EED86986BB822806CD50 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = zhSettingsViewController/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69D9D1970F8C5AE371DC1BF8AE280028 /* Pods-zhSettingsViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6ED0256DFF371E24FD4503B72FC122F1 /* Pods-zhSettingsViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zhSettingsViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		831D7055F6CC9FB6DE738AF3DF4F698B /* zhSettingsViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zhSettingsViewController-dummy.m"; sourceTree = "<group>"; };
+		8706B287622DD61808C587C56F410B0C /* zhSettingsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = zhSettingsViewController.modulemap; sourceTree = "<group>"; };
+		8F4C54D1B937B1A40625594F48247725 /* Pods-zhSettingsViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zhSettingsViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		985BB4638D5DA6C9CD3DC955E0CA7620 /* Pods-zhSettingsViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A833A490FDF94DC3DBA74065403EDAB2 /* Pods-zhSettingsViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zhSettingsViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		A85F4BB2B96D3A8F8358E1390E034277 /* Pods_zhSettingsViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zhSettingsViewController_Example.framework; path = "Pods-zhSettingsViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A920E9F37AAC170039C5BC47298F2002 /* Pods-zhSettingsViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A305C6D263FE25A3E5D2C8835AAE2D /* Pods-zhSettingsViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zhSettingsViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		C0D598CC0BBE1788D4BD9B71E22AA792 /* Pods-zhSettingsViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		C139A6E5555CE16226CB76DBE558C513 /* Pods-zhSettingsViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C5045A6E6A4FBE196968370DC9D490D6 /* Pods-zhSettingsViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C732F5CB48ABD5C95B87A3D161D2CE29 /* Pods_zhSettingsViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zhSettingsViewController_Tests.framework; path = "Pods-zhSettingsViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3C4DBF0724A4EEF4DD272678FF3A95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB51D913527F316789AB9357B68FE66C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1EF88B18C379A1F42ACC60023FEAC2 /* Pods-zhSettingsViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		DE2711AE304103D6F159C4D84BD2033C /* zhSettingsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = zhSettingsViewController.framework; path = zhSettingsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA012EDFFAD6F859259BFF548C32BFF0 /* Pods-zhSettingsViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zhSettingsViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2CF88B3ADBF566500E3D008B729F286 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D3F35FBF51F466ABDEFD8537AF437B /* Pods-zhSettingsViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zhSettingsViewController_Example.modulemap"; sourceTree = "<group>"; };
+		F4FB0A4D2E659C004FF7661429D810A3 /* zhSettingsViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zhSettingsViewController.xcconfig; sourceTree = "<group>"; };
+		F957C2AC79697F33B52681054DDAC0F6 /* Pods-zhSettingsViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662D433C5C9D3E1406800429F6814EAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD9A1E1954351C982499DD2CC08BFD6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867E18C668290E454D18F077A2086CD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6B5D0B2683AFB85BEF9E73EDC9B101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC9F26DF6B605837C85FE626E1D0156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86D46B41B1630A200A7E56F0EC7F0C5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0316A0ABC2AA71F076C574125EE82350 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C6CD0F92CBB57872D47ED7CBDBB3E59 /* zhSettingsViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		121D86717056E875A483ABCA14D1988E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3019746F18120BB6979FE9A0A63583B0 /* Pods-zhSettingsViewController_Example */,
+				69B35D2398668BD9DF0037A0509EA464 /* Pods-zhSettingsViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3019746F18120BB6979FE9A0A63583B0 /* Pods-zhSettingsViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF88B3ADBF566500E3D008B729F286 /* Info.plist */,
+				F2D3F35FBF51F466ABDEFD8537AF437B /* Pods-zhSettingsViewController_Example.modulemap */,
+				EA012EDFFAD6F859259BFF548C32BFF0 /* Pods-zhSettingsViewController_Example-acknowledgements.markdown */,
+				8F4C54D1B937B1A40625594F48247725 /* Pods-zhSettingsViewController_Example-acknowledgements.plist */,
+				B9A305C6D263FE25A3E5D2C8835AAE2D /* Pods-zhSettingsViewController_Example-dummy.m */,
+				F957C2AC79697F33B52681054DDAC0F6 /* Pods-zhSettingsViewController_Example-frameworks.sh */,
+				C0D598CC0BBE1788D4BD9B71E22AA792 /* Pods-zhSettingsViewController_Example-resources.sh */,
+				35E5B43EDFE01900E2006FF981E43F23 /* Pods-zhSettingsViewController_Example-umbrella.h */,
+				A920E9F37AAC170039C5BC47298F2002 /* Pods-zhSettingsViewController_Example.debug.xcconfig */,
+				985BB4638D5DA6C9CD3DC955E0CA7620 /* Pods-zhSettingsViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-zhSettingsViewController_Example";
+			path = "Target Support Files/Pods-zhSettingsViewController_Example";
+			sourceTree = "<group>";
+		};
+		3F79400FEF0FA35A0F44A4C274F7789E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB3C4DBF0724A4EEF4DD272678FF3A95 /* Info.plist */,
+				8706B287622DD61808C587C56F410B0C /* zhSettingsViewController.modulemap */,
+				F4FB0A4D2E659C004FF7661429D810A3 /* zhSettingsViewController.xcconfig */,
+				831D7055F6CC9FB6DE738AF3DF4F698B /* zhSettingsViewController-dummy.m */,
+				3C27667BC55152AFCDA3B4A6E243FBE3 /* zhSettingsViewController-prefix.pch */,
+				0A8D46C1FF569FAB57D44C15F6EF0F60 /* zhSettingsViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/zhSettingsViewController";
+			sourceTree = "<group>";
+		};
+		69B35D2398668BD9DF0037A0509EA464 /* Pods-zhSettingsViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DB51D913527F316789AB9357B68FE66C /* Info.plist */,
+				A833A490FDF94DC3DBA74065403EDAB2 /* Pods-zhSettingsViewController_Tests.modulemap */,
+				3C9B800548C6FBFD8BD91A56535587AF /* Pods-zhSettingsViewController_Tests-acknowledgements.markdown */,
+				00F5252F36CEA67A776754C43D1A9513 /* Pods-zhSettingsViewController_Tests-acknowledgements.plist */,
+				02D6A92D936A24DC558BC4A3FB83F5F6 /* Pods-zhSettingsViewController_Tests-dummy.m */,
+				C139A6E5555CE16226CB76DBE558C513 /* Pods-zhSettingsViewController_Tests-frameworks.sh */,
+				DC1EF88B18C379A1F42ACC60023FEAC2 /* Pods-zhSettingsViewController_Tests-resources.sh */,
+				6ED0256DFF371E24FD4503B72FC122F1 /* Pods-zhSettingsViewController_Tests-umbrella.h */,
+				69D9D1970F8C5AE371DC1BF8AE280028 /* Pods-zhSettingsViewController_Tests.debug.xcconfig */,
+				C5045A6E6A4FBE196968370DC9D490D6 /* Pods-zhSettingsViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-zhSettingsViewController_Tests";
+			path = "Target Support Files/Pods-zhSettingsViewController_Tests";
+			sourceTree = "<group>";
+		};
+		7C6CD0F92CBB57872D47ED7CBDBB3E59 /* zhSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4802F5C871A1EED86986BB822806CD50 /* ReplaceMe.m */,
+				3F79400FEF0FA35A0F44A4C274F7789E /* Support Files */,
+			);
+			name = zhSettingsViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0316A0ABC2AA71F076C574125EE82350 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A9AAC00F25D505C5C1B6CF078B8BA4E2 /* Products */,
+				121D86717056E875A483ABCA14D1988E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A9AAC00F25D505C5C1B6CF078B8BA4E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85F4BB2B96D3A8F8358E1390E034277 /* Pods_zhSettingsViewController_Example.framework */,
+				C732F5CB48ABD5C95B87A3D161D2CE29 /* Pods_zhSettingsViewController_Tests.framework */,
+				DE2711AE304103D6F159C4D84BD2033C /* zhSettingsViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11AEAA9E759F19C62D1C065C134FD468 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B0FE86550C6BFA5FD7347CEE6ACA38 /* Pods-zhSettingsViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39E50769209612FDCD1973F8D5EE609 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2EC96D0E9E19011D3E3F86BFA3A742 /* Pods-zhSettingsViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7BF6410C2D7CA6B54CE0033F4B13B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340EAA14D0C15AAB24898E8E4F6FD328 /* zhSettingsViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BD949DAFBA75BB8A54078BA0A3AD124 /* Pods-zhSettingsViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEB3B1EAFB3003E95F23C2C1EF15A8F /* Build configuration list for PBXNativeTarget "Pods-zhSettingsViewController_Tests" */;
+			buildPhases = (
+				C9DF89548142889947407F34D960F2D8 /* Sources */,
+				867E18C668290E454D18F077A2086CD7 /* Frameworks */,
+				A39E50769209612FDCD1973F8D5EE609 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-zhSettingsViewController_Tests";
+			productName = "Pods-zhSettingsViewController_Tests";
+			productReference = C732F5CB48ABD5C95B87A3D161D2CE29 /* Pods_zhSettingsViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DDE4080C56D2249863C80029B156121 /* Pods-zhSettingsViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D168A649BCE504F4686BC0567C5417BB /* Build configuration list for PBXNativeTarget "Pods-zhSettingsViewController_Example" */;
+			buildPhases = (
+				40067C8E0D087E6FD64FF35E90167587 /* Sources */,
+				9DC9F26DF6B605837C85FE626E1D0156 /* Frameworks */,
+				11AEAA9E759F19C62D1C065C134FD468 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB1CCDF7C86E0C4F68A0CF094323D016 /* PBXTargetDependency */,
+			);
+			name = "Pods-zhSettingsViewController_Example";
+			productName = "Pods-zhSettingsViewController_Example";
+			productReference = A85F4BB2B96D3A8F8358E1390E034277 /* Pods_zhSettingsViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		63D4E4E3659E1AB13082D013EA92A50D /* zhSettingsViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4F3738A0F8FD639E6DD43AEDF5AE63D /* Build configuration list for PBXNativeTarget "zhSettingsViewController" */;
+			buildPhases = (
+				4D0C0F8ED9593DACF40022A8232DBD0D /* Sources */,
+				662D433C5C9D3E1406800429F6814EAF /* Frameworks */,
+				ED7BF6410C2D7CA6B54CE0033F4B13B3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhSettingsViewController;
+			productName = zhSettingsViewController;
+			productReference = DE2711AE304103D6F159C4D84BD2033C /* zhSettingsViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A9AAC00F25D505C5C1B6CF078B8BA4E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DDE4080C56D2249863C80029B156121 /* Pods-zhSettingsViewController_Example */,
+				2BD949DAFBA75BB8A54078BA0A3AD124 /* Pods-zhSettingsViewController_Tests */,
+				63D4E4E3659E1AB13082D013EA92A50D /* zhSettingsViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40067C8E0D087E6FD64FF35E90167587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341453B96A4AF38896E41FB2AC39B6DF /* Pods-zhSettingsViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0C0F8ED9593DACF40022A8232DBD0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A79D8BF3C4FB436D2E5EA6339572A9 /* ReplaceMe.m in Sources */,
+				43DE648A572B869F09C2DA6DE2445394 /* zhSettingsViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DF89548142889947407F34D960F2D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E6CCB5A1D86DB626602DCC117903F4 /* Pods-zhSettingsViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB1CCDF7C86E0C4F68A0CF094323D016 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zhSettingsViewController;
+			target = 63D4E4E3659E1AB13082D013EA92A50D /* zhSettingsViewController */;
+			targetProxy = 0FA1A6D1B432F66BB966587677BFDD25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26F6CE77962C0023B2B1B6CC3FE4E0E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FB0A4D2E659C004FF7661429D810A3 /* zhSettingsViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/zhSettingsViewController/zhSettingsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zhSettingsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zhSettingsViewController/zhSettingsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = zhSettingsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71FFEEB2E3990EB51F7FFB1FA57233D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4FB0A4D2E659C004FF7661429D810A3 /* zhSettingsViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/zhSettingsViewController/zhSettingsViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/zhSettingsViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/zhSettingsViewController/zhSettingsViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = zhSettingsViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD8E9852262EF3450014703BC2F2B1C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985BB4638D5DA6C9CD3DC955E0CA7620 /* Pods-zhSettingsViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zhSettingsViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zhSettingsViewController_Example/Pods-zhSettingsViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zhSettingsViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B39DAD94480FE6B4F94FB7F77A21CA03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5045A6E6A4FBE196968370DC9D490D6 /* Pods-zhSettingsViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zhSettingsViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zhSettingsViewController_Tests/Pods-zhSettingsViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zhSettingsViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB525BCF55216F15D8719D133E2539E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A920E9F37AAC170039C5BC47298F2002 /* Pods-zhSettingsViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zhSettingsViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zhSettingsViewController_Example/Pods-zhSettingsViewController_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zhSettingsViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F72A0B82E7D6CAFAB93E626BE6611F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D9D1970F8C5AE371DC1BF8AE280028 /* Pods-zhSettingsViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-zhSettingsViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-zhSettingsViewController_Tests/Pods-zhSettingsViewController_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_zhSettingsViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEB3B1EAFB3003E95F23C2C1EF15A8F /* Build configuration list for PBXNativeTarget "Pods-zhSettingsViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F72A0B82E7D6CAFAB93E626BE6611F3E /* Debug */,
+				B39DAD94480FE6B4F94FB7F77A21CA03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D168A649BCE504F4686BC0567C5417BB /* Build configuration list for PBXNativeTarget "Pods-zhSettingsViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB525BCF55216F15D8719D133E2539E8 /* Debug */,
+				AD8E9852262EF3450014703BC2F2B1C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F3738A0F8FD639E6DD43AEDF5AE63D /* Build configuration list for PBXNativeTarget "zhSettingsViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71FFEEB2E3990EB51F7FFB1FA57233D0 /* Debug */,
+				26F6CE77962C0023B2B1B6CC3FE4E0E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

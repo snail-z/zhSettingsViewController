@@ -1,0 +1,16 @@
+PODS:
+  - zhSettingsViewController (0.1.0)
+
+DEPENDENCIES:
+  - zhSettingsViewController (from `../`)
+
+EXTERNAL SOURCES:
+  zhSettingsViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  zhSettingsViewController: 499168a6a9d14aae45d22718b3dde6a63d1c6538
+
+PODFILE CHECKSUM: 9140ec16d12dbe957dcbbd212be67a9889fc3e81
+
+COCOAPODS: 1.3.1

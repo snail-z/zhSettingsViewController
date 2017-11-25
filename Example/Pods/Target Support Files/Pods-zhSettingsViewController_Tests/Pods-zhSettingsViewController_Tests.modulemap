@@ -1,0 +1,6 @@
+framework module Pods_zhSettingsViewController_Tests {
+  umbrella header "Pods-zhSettingsViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -5,24 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/zhSettingsViewController.svg?style=flat)](http://cocoapods.org/pods/zhSettingsViewController)
 [![Platform](https://img.shields.io/cocoapods/p/zhSettingsViewController.svg?style=flat)](http://cocoapods.org/pods/zhSettingsViewController)
 
-## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+zhSettingsViewController can quickly help you make the project settings page.
 
-## Installation
-
-zhSettingsViewController is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'zhSettingsViewController'
-```
+## Preview
 
 ## Author
 
-snail-z, 40460770@qq.com
+snail-z, [haozhang0770@163.com](mailto:haozhang0770@163.com)
 
 ## License
 

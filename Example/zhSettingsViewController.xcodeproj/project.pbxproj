@@ -24,6 +24,15 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B0946D21E1BBEBBCD0BC6C6C /* Pods_zhSettingsViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE9367270660EEEDED47C391 /* Pods_zhSettingsViewController_Tests.framework */; };
 		D4969059AAC1A1DD024816FB /* Pods_zhSettingsViewController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F88260928E80BE43D7932B /* Pods_zhSettingsViewController_Example.framework */; };
+		F2FA4A8B1FC9495D001B51DB /* zhSettingsArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A7E1FC9495D001B51DB /* zhSettingsArrowItem.m */; };
+		F2FA4A8C1FC9495D001B51DB /* zhSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A801FC9495D001B51DB /* zhSettingsViewController.m */; };
+		F2FA4A8D1FC9495D001B51DB /* zhSettingsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A821FC9495D001B51DB /* zhSettingsGroup.m */; };
+		F2FA4A8E1FC9495D001B51DB /* zhSettingsGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A841FC9495D001B51DB /* zhSettingsGroupView.m */; };
+		F2FA4A8F1FC9495D001B51DB /* zhSettingsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A861FC9495D001B51DB /* zhSettingsItem.m */; };
+		F2FA4A901FC9495D001B51DB /* zhSettingsSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A881FC9495D001B51DB /* zhSettingsSwitchItem.m */; };
+		F2FA4A911FC9495D001B51DB /* zhSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A8A1FC9495D001B51DB /* zhSettingsTableViewCell.m */; };
+		F2FA4A941FC94CF7001B51DB /* zh_FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A931FC94CF7001B51DB /* zh_FirstViewController.m */; };
+		F2FA4A971FC95371001B51DB /* zh_SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2FA4A961FC95371001B51DB /* zh_SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +48,7 @@
 /* Begin PBXFileReference section */
 		1A173E35D96FE5CE5FB537B3 /* Pods-zhSettingsViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhSettingsViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhSettingsViewController_Example/Pods-zhSettingsViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2320AE92835CB7F1F81F68F1 /* Pods-zhSettingsViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhSettingsViewController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhSettingsViewController_Example/Pods-zhSettingsViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		36FC0681259AF7EED283BAFC /* zhSettingsViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = zhSettingsViewController.podspec; path = ../zhSettingsViewController.podspec; sourceTree = "<group>"; };
+		36FC0681259AF7EED283BAFC /* zhSettingsViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = zhSettingsViewController.podspec; path = ../zhSettingsViewController.podspec; sourceTree = "<group>"; };
 		4ABD2E0874A56600F7538A8C /* Pods-zhSettingsViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhSettingsViewController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhSettingsViewController_Tests/Pods-zhSettingsViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* zhSettingsViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhSettingsViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +71,28 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62F88260928E80BE43D7932B /* Pods_zhSettingsViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhSettingsViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7230F5B8D13C34878A8A83E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		778D9D188CBCEAA2970BBB49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7230F5B8D13C34878A8A83E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		778D9D188CBCEAA2970BBB49 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE9367270660EEEDED47C391 /* Pods_zhSettingsViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhSettingsViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FA4A7D1FC9495D001B51DB /* zhSettingsArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhSettingsArrowItem.h; sourceTree = "<group>"; };
+		F2FA4A7E1FC9495D001B51DB /* zhSettingsArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhSettingsArrowItem.m; sourceTree = "<group>"; };
+		F2FA4A7F1FC9495D001B51DB /* zhSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhSettingsViewController.h; sourceTree = "<group>"; };
+		F2FA4A801FC9495D001B51DB /* zhSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhSettingsViewController.m; sourceTree = "<group>"; };
+		F2FA4A811FC9495D001B51DB /* zhSettingsGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhSettingsGroup.h; sourceTree = "<group>"; };
+		F2FA4A821FC9495D001B51DB /* zhSettingsGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhSettingsGroup.m; sourceTree = "<group>"; };
+		F2FA4A831FC9495D001B51DB /* zhSettingsGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhSettingsGroupView.h; sourceTree = "<group>"; };
+		F2FA4A841FC9495D001B51DB /* zhSettingsGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhSettingsGroupView.m; sourceTree = "<group>"; };
+		F2FA4A851FC9495D001B51DB /* zhSettingsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhSettingsItem.h; sourceTree = "<group>"; };
+		F2FA4A861FC9495D001B51DB /* zhSettingsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhSettingsItem.m; sourceTree = "<group>"; };
+		F2FA4A871FC9495D001B51DB /* zhSettingsSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhSettingsSwitchItem.h; sourceTree = "<group>"; };
+		F2FA4A881FC9495D001B51DB /* zhSettingsSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhSettingsSwitchItem.m; sourceTree = "<group>"; };
+		F2FA4A891FC9495D001B51DB /* zhSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhSettingsTableViewCell.h; sourceTree = "<group>"; };
+		F2FA4A8A1FC9495D001B51DB /* zhSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhSettingsTableViewCell.m; sourceTree = "<group>"; };
+		F2FA4A921FC94CF7001B51DB /* zh_FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zh_FirstViewController.h; sourceTree = "<group>"; };
+		F2FA4A931FC94CF7001B51DB /* zh_FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zh_FirstViewController.m; sourceTree = "<group>"; };
+		F2FA4A951FC95371001B51DB /* zh_SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zh_SecondViewController.h; sourceTree = "<group>"; };
+		F2FA4A961FC95371001B51DB /* zh_SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zh_SecondViewController.m; sourceTree = "<group>"; };
 		F96B221BB4A5A5DC4A592F24 /* Pods-zhSettingsViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhSettingsViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhSettingsViewController_Tests/Pods-zhSettingsViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,11 +159,16 @@
 		6003F593195388D20070C39A /* Example for zhSettingsViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F2FA4A7C1FC9495D001B51DB /* Classes */,
 				6003F59C195388D20070C39A /* zh_AppDelegate.h */,
 				6003F59D195388D20070C39A /* zh_AppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* zh_ViewController.h */,
 				6003F5A6195388D20070C39A /* zh_ViewController.m */,
+				F2FA4A921FC94CF7001B51DB /* zh_FirstViewController.h */,
+				F2FA4A931FC94CF7001B51DB /* zh_FirstViewController.m */,
+				F2FA4A951FC95371001B51DB /* zh_SecondViewController.h */,
+				F2FA4A961FC95371001B51DB /* zh_SecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -196,6 +228,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F2FA4A7C1FC9495D001B51DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2FA4A7F1FC9495D001B51DB /* zhSettingsViewController.h */,
+				F2FA4A801FC9495D001B51DB /* zhSettingsViewController.m */,
+				F2FA4A831FC9495D001B51DB /* zhSettingsGroupView.h */,
+				F2FA4A841FC9495D001B51DB /* zhSettingsGroupView.m */,
+				F2FA4A891FC9495D001B51DB /* zhSettingsTableViewCell.h */,
+				F2FA4A8A1FC9495D001B51DB /* zhSettingsTableViewCell.m */,
+				F2FA4A811FC9495D001B51DB /* zhSettingsGroup.h */,
+				F2FA4A821FC9495D001B51DB /* zhSettingsGroup.m */,
+				F2FA4A851FC9495D001B51DB /* zhSettingsItem.h */,
+				F2FA4A861FC9495D001B51DB /* zhSettingsItem.m */,
+				F2FA4A7D1FC9495D001B51DB /* zhSettingsArrowItem.h */,
+				F2FA4A7E1FC9495D001B51DB /* zhSettingsArrowItem.m */,
+				F2FA4A871FC9495D001B51DB /* zhSettingsSwitchItem.h */,
+				F2FA4A881FC9495D001B51DB /* zhSettingsSwitchItem.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,6 +303,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "snail-z";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PKP72GRD56;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -403,9 +459,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FA4A971FC95371001B51DB /* zh_SecondViewController.m in Sources */,
+				F2FA4A8F1FC9495D001B51DB /* zhSettingsItem.m in Sources */,
+				F2FA4A941FC94CF7001B51DB /* zh_FirstViewController.m in Sources */,
+				F2FA4A8B1FC9495D001B51DB /* zhSettingsArrowItem.m in Sources */,
+				F2FA4A8E1FC9495D001B51DB /* zhSettingsGroupView.m in Sources */,
+				F2FA4A8C1FC9495D001B51DB /* zhSettingsViewController.m in Sources */,
 				6003F59E195388D20070C39A /* zh_AppDelegate.m in Sources */,
+				F2FA4A8D1FC9495D001B51DB /* zhSettingsGroup.m in Sources */,
 				6003F5A7195388D20070C39A /* zh_ViewController.m in Sources */,
+				F2FA4A911FC9495D001B51DB /* zhSettingsTableViewCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F2FA4A901FC9495D001B51DB /* zhSettingsSwitchItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,9 +598,11 @@
 			baseConfigurationReference = 2320AE92835CB7F1F81F68F1 /* Pods-zhSettingsViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PKP72GRD56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zhSettingsViewController/zhSettingsViewController-Prefix.pch";
 				INFOPLIST_FILE = "zhSettingsViewController/zhSettingsViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +615,11 @@
 			baseConfigurationReference = 1A173E35D96FE5CE5FB537B3 /* Pods-zhSettingsViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PKP72GRD56;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zhSettingsViewController/zhSettingsViewController-Prefix.pch";
 				INFOPLIST_FILE = "zhSettingsViewController/zhSettingsViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

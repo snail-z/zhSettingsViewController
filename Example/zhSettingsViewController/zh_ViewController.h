@@ -6,8 +6,8 @@
 //  Copyright (c) 2017 snail-z. All rights reserved.
 //
 
-@import UIKit;
+#import "zhSettingsViewController.h"
 
-@interface zh_ViewController : UIViewController
+@interface zh_ViewController : zhSettingsViewController
 
 @end

@@ -65,11 +65,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 调整accessoryImage尺寸大小, default is 10.
 @property (nonatomic, assign) CGFloat accessoryImage2Insets;
 
-/// (accessoryImage2 => |accessoryImage2PaddingRight| <= aView), default is 10.
-@property (nonatomic, assign) CGFloat accessoryImage2PaddingRight;
+/// (accessoryImage2/accessoryText => |accessoryPaddingRight| <= aView), default is 10.
+@property (nonatomic, assign) CGFloat accessoryPaddingRight;
 
 /// 设置accessoryImage圆角半径, default is 0.
 @property (nonatomic, assign) CGFloat accessoryImage2CornerRadius;
+
+/// 是否交换accessoryImage2与accessoryText的位置
+@property (nonatomic, assign) BOOL isPositionSwapAccessory;
 
 /// if set, use custom accessory view. (The switch or arrows will be invalid.)
 @property (nonatomic, strong, nullable) UIView *accessoryCustomView;

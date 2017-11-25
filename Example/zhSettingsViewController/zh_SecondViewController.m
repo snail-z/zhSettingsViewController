@@ -44,9 +44,19 @@
     };
     
     zhSettingsArrowItem *item4 = [zhSettingsArrowItem new];
-    item4.title = @"更多";
+    item4.title = @"身份认证";
+    item4.accessoryImage2 = [UIImage imageNamed:@"ss_authenticated"];
+    item4.accessoryText = @"小蜗牛";
+    item4.accessoryImage2Insets = 13;
+    item4.isPositionSwapAccessory = YES;
+    item4.handleEventsBlock = ^(zhSettingsArrowItem *item) {
+        NSLog(@"%@", item.title);
+    };
     
-    zhSettingsGroup *group1 = [zhSettingsGroup groupWithItems:@[item1, item2, item3, item4]];
+    zhSettingsArrowItem *item5 = [zhSettingsArrowItem new];
+    item5.title = @"更多";
+    
+    zhSettingsGroup *group1 = [zhSettingsGroup groupWithItems:@[item1, item2, item3, item4, item5]];
     group1.headerHeight = 15;
     [self.ssGroups addObject:group1];
 }

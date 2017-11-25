@@ -67,15 +67,19 @@
             _ssTitleLabel.frame = CGRectMake(_item.paddingLeft, makeY(titleSize.height), titleSize.width, titleSize.height);
         }
         if (_ssIconView.image) {
-            CGFloat iconW = _item.cellHeight - 2 * _item.iconInsets;
+            CGFloat iconH = _item.cellHeight - 2 * _item.iconInsets;
+            CGFloat factor = _ssIconView.image.size.width / _ssIconView.image.size.height;
+            CGFloat iconW = iconH * factor;
             CGFloat iconX = CGRectGetMaxX(_ssTitleLabel.frame) + _item.subSpacingLeft;
-            _ssIconView.frame = CGRectMake(iconX, makeY(iconW), iconW, iconW);
+            _ssIconView.frame = CGRectMake(iconX, makeY(iconH), iconW, iconH);
             _ssIconView.layer.cornerRadius = _item.iconCornerRadius;
         }
     } else {
         if (_ssIconView.image) {
-            CGFloat iconW = _item.cellHeight - 2 * _item.iconInsets;
-            _ssIconView.frame = CGRectMake(_item.paddingLeft, makeY(iconW), iconW, iconW);
+            CGFloat iconH = _item.cellHeight - 2 * _item.iconInsets;
+            CGFloat factor = _ssIconView.image.size.width / _ssIconView.image.size.height;
+            CGFloat iconW = iconH * factor;
+            _ssIconView.frame = CGRectMake(_item.paddingLeft, makeY(iconH), iconW, iconH);
             _ssIconView.layer.cornerRadius = _item.iconCornerRadius;
         }
         if (_ssTitleLabel.text.length) {
@@ -100,18 +104,36 @@
         relativeRight = CGRectGetMinX(_ssAccessoryView.frame);
     }
     
-    if (_ssAccessoryLabel.text.length) {
-        CGSize assryLabelSize = [_ssAccessoryLabel sizeThatFits:CGSizeMake(size.width / 2, size.height)];
-        CGFloat assryLabelX = relativeRight - _item.subSpacingRight - assryLabelSize.width;
-        _ssAccessoryLabel.frame = CGRectMake(assryLabelX, makeY(assryLabelSize.height), assryLabelSize.width, assryLabelSize.height);
-        relativeRight = CGRectGetMinX(_ssAccessoryLabel.frame);
-    }
-    
-    if (_ssAccessoryView2.image) {
-        CGFloat accessory2W = _item.cellHeight - 2 * _item.accessoryImage2Insets;
-        CGFloat accessory2X = relativeRight - _item.accessoryImage2PaddingRight - accessory2W;
-        _ssAccessoryView2.frame = CGRectMake(accessory2X, makeY(accessory2W), accessory2W, accessory2W);
-        _ssAccessoryView2.layer.cornerRadius = _item.accessoryImage2CornerRadius;
+    if (_item.isPositionSwapAccessory) {
+        if (_ssAccessoryView2.image) {
+            CGFloat accessory2H = _item.cellHeight - 2 * _item.accessoryImage2Insets;
+            CGFloat factor = _ssAccessoryView2.image.size.width / _ssAccessoryView2.image.size.height;
+            CGFloat accessory2W = accessory2H * factor;
+            CGFloat accessory2X = relativeRight - _item.subSpacingRight - accessory2W;
+            _ssAccessoryView2.frame = CGRectMake(accessory2X, makeY(accessory2H), accessory2W, accessory2H);
+            _ssAccessoryView2.layer.cornerRadius = _item.accessoryImage2CornerRadius;
+            relativeRight = CGRectGetMinX(_ssAccessoryView2.frame);
+        }
+        if (_ssAccessoryLabel.text.length) {
+            CGSize assryLabelSize = [_ssAccessoryLabel sizeThatFits:CGSizeMake(size.width / 2, size.height)];
+            CGFloat assryLabelX = relativeRight - _item.accessoryPaddingRight - assryLabelSize.width;
+            _ssAccessoryLabel.frame = CGRectMake(assryLabelX, makeY(assryLabelSize.height), assryLabelSize.width, assryLabelSize.height);
+        }
+    } else {
+        if (_ssAccessoryLabel.text.length) {
+            CGSize assryLabelSize = [_ssAccessoryLabel sizeThatFits:CGSizeMake(size.width / 2, size.height)];
+            CGFloat assryLabelX = relativeRight - _item.subSpacingRight - assryLabelSize.width;
+            _ssAccessoryLabel.frame = CGRectMake(assryLabelX, makeY(assryLabelSize.height), assryLabelSize.width, assryLabelSize.height);
+            relativeRight = CGRectGetMinX(_ssAccessoryLabel.frame);
+        }
+        if (_ssAccessoryView2.image) {
+            CGFloat accessory2H = _item.cellHeight - 2 * _item.accessoryImage2Insets;
+            CGFloat factor = _ssAccessoryView2.image.size.width / _ssAccessoryView2.image.size.height;
+            CGFloat accessory2W = accessory2H * factor;
+            CGFloat accessory2X = relativeRight - _item.accessoryPaddingRight - accessory2W;
+            _ssAccessoryView2.frame = CGRectMake(accessory2X, makeY(accessory2H), accessory2W, accessory2H);
+            _ssAccessoryView2.layer.cornerRadius = _item.accessoryImage2CornerRadius;
+        }
     }
 }
 

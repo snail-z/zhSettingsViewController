@@ -64,8 +64,8 @@
     return 10;
 }
 
-- (CGFloat)accessoryImage2PaddingRight {
-    if (_accessoryImage2PaddingRight) return _accessoryImage2PaddingRight;
+- (CGFloat)accessoryPaddingRight {
+    if (_accessoryPaddingRight) return _accessoryPaddingRight;
     return 10;
 }
 

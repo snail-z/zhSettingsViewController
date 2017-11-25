@@ -11,6 +11,9 @@ zhSettingsViewController can quickly help you make the project settings page.
 
 ## Preview
 
+<img src="https://github.com/snail-z/zhSettingsViewController/blob/master/preview/preview-1.jpg?raw=true" width="204px" height="365px">
+<img src="https://github.com/snail-z/zhSettingsViewController/blob/master/preview/preview-2.jpg?raw=true" width="204px" height="365px">
+
 ## Author
 
 snail-z, [haozhang0770@163.com](mailto:haozhang0770@163.com)

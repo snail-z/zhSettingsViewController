@@ -41,6 +41,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// set title, default is nil.
 @property (nonatomic, strong, nullable) NSString *title;
 
+/// set attributed title, default is nil. (if set it, the title will be invalid.)
+@property (nonatomic, strong, nullable) NSAttributedString *attributedTitle;
+
 /// default is [UIColor blackColor].
 @property (nonatomic, strong, nullable) UIColor *titleColor;
 

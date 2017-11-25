@@ -21,9 +21,28 @@
     [self group2Initialization];
     [self group3Initialization];
     [self group4Initialization];
+    [self group5Initialization];
 }
 
 - (void)group1Initialization {
+    zhSettingsArrowItem *item1 = [zhSettingsArrowItem new];
+    item1.iconImage = [UIImage imageNamed:@"ss_headImg"];
+    item1.iconCornerRadius = 6;
+    item1.subSpacingLeft = 10;
+    item1.attributedTitle = [self makeAttributedTitle];
+    item1.accessoryImage2 = [UIImage imageNamed:@"ss_QRCode"];
+    item1.cellHeight = 88;
+    item1.accessoryImage2Insets = 33;
+    item1.handleEventsBlock = ^(zhSettingsArrowItem *item) {
+        NSLog(@"%@", item.title);
+    };
+    
+    zhSettingsGroup *group = [zhSettingsGroup groupWithItems:@[item1]];
+    group.headerHeight = 15;
+    [self.ssGroups addObject:group];
+}
+
+- (void)group2Initialization {
     zhSettingsItem *item1 = [zhSettingsItem new];
     item1.title = @"微信号";
     
@@ -41,7 +60,7 @@
     [self.ssGroups addObject:group];
 }
 
-- (void)group2Initialization {
+- (void)group3Initialization {
     zhSettingsArrowItem *item1 = [zhSettingsArrowItem new];
     item1.title = @"微信密码";
     item1.accessoryText = @"****";
@@ -61,7 +80,7 @@
     [self.ssGroups addObject:group];
 }
 
-- (void)group3Initialization {
+- (void)group4Initialization {
     zhSettingsSwitchItem *item1 = [zhSettingsSwitchItem new];
     item1.title = @"开启推送";
     item1.isOn = YES;
@@ -88,7 +107,7 @@
     [self.ssGroups addObject:group];
 }
 
-- (void)group4Initialization {
+- (void)group5Initialization {
     zhSettingsArrowItem *item1 = [zhSettingsArrowItem new];
     item1.title = @"微信安全中心";
     item1.handleEventsBlock = ^(zhSettingsArrowItem *item) {
@@ -100,6 +119,21 @@
     group.footerHeight = 70;
     group.footerText = @"如果遇到账号信息泄露、忘记密码、诈骗等账号安全问题，可前往微信安全中心。";
     [self.ssGroups addObject:group];
+}
+
+- (NSAttributedString *)makeAttributedTitle {
+    NSString *title1 = @"Snail-z", *title2 = @"微信号：zhang_jh770";
+    NSString *text = [NSString stringWithFormat:@"%@\n%@", title1, title2];
+    NSMutableAttributedString *attriText = [[NSMutableAttributedString alloc] initWithString:text];
+    
+    [attriText addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:17] range:[text rangeOfString:title1]];
+    [attriText addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:13] range:[text rangeOfString:title2]];
+    
+    NSMutableParagraphStyle *paragraphStyle = [[NSMutableParagraphStyle alloc] init];
+    [paragraphStyle setLineSpacing:10];
+    [attriText addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, [text length])]; // 行距调整
+    
+    return attriText;
 }
 
 @end

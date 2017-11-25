@@ -38,6 +38,7 @@
         [self addSubview:_ssIconView];
         
         _ssTitleLabel = [[UILabel alloc] init];
+        _ssTitleLabel.numberOfLines = 0;
         [self addSubview:_ssTitleLabel];
         
         _ssAccessoryLabel = [[UILabel alloc] init];
@@ -121,8 +122,12 @@
     [self setupAccessoryView];
     
     _ssIconView.image = _item.iconImage;
-    _ssTitleLabel.text = _item.title;
     _ssAccessoryLabel.text = _item.accessoryText;
+    if (_item.attributedTitle.length) {
+        _ssTitleLabel.attributedText = _item.attributedTitle;
+    } else {
+        _ssTitleLabel.text = _item.title;
+    }
 
     [self setNeedsLayout];
 }

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'zhSettingsViewController_Example' do
+  pod 'zhSettingsViewController', :path => '../'
+
+  target 'zhSettingsViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

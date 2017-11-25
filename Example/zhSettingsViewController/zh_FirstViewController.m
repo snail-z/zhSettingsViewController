@@ -34,7 +34,7 @@
     item1.cellHeight = 88;
     item1.accessoryImage2Insets = 33;
     item1.handleEventsBlock = ^(zhSettingsArrowItem *item) {
-        NSLog(@"%@", item.title);
+        NSLog(@"%@", item.attributedTitle);
     };
     
     zhSettingsGroup *group = [zhSettingsGroup groupWithItems:@[item1]];
@@ -45,6 +45,7 @@
 - (void)group2Initialization {
     zhSettingsItem *item1 = [zhSettingsItem new];
     item1.title = @"微信号";
+    item1.accessoryText = @"zhang_jh770";
     
     zhSettingsArrowItem *item2 = [zhSettingsArrowItem new];
     item2.title = @"手机号";

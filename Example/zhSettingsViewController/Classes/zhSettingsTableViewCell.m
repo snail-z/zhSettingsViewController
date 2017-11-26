@@ -42,16 +42,27 @@
         [self addSubview:_ssTitleLabel];
         
         _ssAccessoryLabel = [[UILabel alloc] init];
+        _ssAccessoryLabel.layer.masksToBounds = YES;
         [self addSubview:self.ssAccessoryLabel];
         
         _ssAccessoryView = [[UIView alloc] init];
-        [self addSubview:_ssAccessoryView];
+        [self.contentView addSubview:_ssAccessoryView];
         
         _ssAccessoryView2 = [[UIImageView alloc] init];
         _ssAccessoryView2.layer.masksToBounds = YES;
-        [self addSubview:_ssAccessoryView2];
+        [self.contentView addSubview:_ssAccessoryView2];
     }
     return self;
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+    [super setSelected:selected animated:animated];
+    _ssAccessoryLabel.backgroundColor = _item.accessoryTextBackgroundColor;
+}
+
+-(void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated {
+    [super setHighlighted:highlighted animated:animated];
+    _ssAccessoryLabel.backgroundColor = _item.accessoryTextBackgroundColor;
 }
 
 - (void)layoutSubviews {
@@ -117,13 +128,29 @@
         if (_ssAccessoryLabel.text.length) {
             CGSize assryLabelSize = [_ssAccessoryLabel sizeThatFits:CGSizeMake(size.width / 2, size.height)];
             CGFloat assryLabelX = relativeRight - _item.accessoryPaddingRight - assryLabelSize.width;
+            if (!UIOffsetEqualToOffset(UIOffsetZero, _item.accessoryTextEdgePadding)) {
+                assryLabelSize.width += _item.accessoryTextEdgePadding.horizontal;
+                assryLabelSize.height += _item.accessoryTextEdgePadding.vertical;
+                assryLabelX -= _item.accessoryTextEdgePadding.horizontal;
+                _ssAccessoryLabel.textAlignment = NSTextAlignmentCenter;
+            }
             _ssAccessoryLabel.frame = CGRectMake(assryLabelX, makeY(assryLabelSize.height), assryLabelSize.width, assryLabelSize.height);
+            CGFloat radius = _item.accessoryTextMakeRound ? (assryLabelSize.height / 2) : 0;
+            _ssAccessoryLabel.layer.cornerRadius = radius;
         }
     } else {
         if (_ssAccessoryLabel.text.length) {
             CGSize assryLabelSize = [_ssAccessoryLabel sizeThatFits:CGSizeMake(size.width / 2, size.height)];
             CGFloat assryLabelX = relativeRight - _item.subSpacingRight - assryLabelSize.width;
+            if (!UIOffsetEqualToOffset(UIOffsetZero, _item.accessoryTextEdgePadding)) {
+                assryLabelSize.width += _item.accessoryTextEdgePadding.horizontal;
+                assryLabelSize.height += _item.accessoryTextEdgePadding.vertical;
+                assryLabelX -= _item.accessoryTextEdgePadding.horizontal;
+                _ssAccessoryLabel.textAlignment = NSTextAlignmentCenter;
+            }
             _ssAccessoryLabel.frame = CGRectMake(assryLabelX, makeY(assryLabelSize.height), assryLabelSize.width, assryLabelSize.height);
+            CGFloat radius = _item.accessoryTextMakeRound ? (assryLabelSize.height / 2) : 0;
+            _ssAccessoryLabel.layer.cornerRadius = radius;
             relativeRight = CGRectGetMinX(_ssAccessoryLabel.frame);
         }
         if (_ssAccessoryView2.image) {

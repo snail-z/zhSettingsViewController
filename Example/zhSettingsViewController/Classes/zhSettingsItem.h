@@ -59,6 +59,15 @@ NS_ASSUME_NONNULL_BEGIN
 /// default is [UIFont systemFontOfSize:15].
 @property (nonatomic, strong, nullable) UIFont *accessoryTextFont;
 
+/// 文本边缘扩充留白, default is UIOffsetZero.
+@property (nonatomic, assign) UIOffset accessoryTextEdgePadding;
+
+/// default is [UIColor clearColor].
+@property (nonatomic, strong, nullable) UIColor *accessoryTextBackgroundColor;
+
+/// 是否切为圆形状，default is NO.
+@property (nonatomic, assign) BOOL accessoryTextMakeRound;
+
 /// set accessory image, default is nil.
 @property (nonatomic, strong, nullable) UIImage *accessoryImage2;
 

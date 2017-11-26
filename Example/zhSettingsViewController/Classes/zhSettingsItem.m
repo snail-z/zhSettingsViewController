@@ -59,6 +59,11 @@
     return [UIFont systemFontOfSize:15];
 }
 
+- (UIColor *)accessoryTextBackgroundColor {
+    if (_accessoryTextBackgroundColor) return _accessoryTextBackgroundColor;
+    return [UIColor clearColor];
+}
+
 - (CGFloat)accessoryImage2Insets {
     if (_accessoryImage2Insets) return _accessoryImage2Insets;
     return 10;

@@ -98,12 +98,19 @@
     };
     
     zhSettingsArrowItem *item3 = [zhSettingsArrowItem new];
-    item3.title = @"登录设备管理";
+    item3.iconImage = [UIImage imageNamed:@"ss_message"];
+    item3.title = @"我的消息";
+    item3.accessoryText = @"17";
+    item3.accessoryTextColor = [UIColor whiteColor];
+    item3.accessoryTextBackgroundColor = [UIColor redColor];
+    item3.accessoryTextEdgePadding = UIOffsetMake(15, 2);
+    item3.accessoryTextMakeRound = YES;
+    item3.isPositionSwapAccessory = YES;
+    item3.handleEventsBlock = ^(zhSettingsArrowItem *item) {
+        NSLog(@"%@", item.title);
+    };
     
-    zhSettingsArrowItem *item4 = [zhSettingsArrowItem new];
-    item4.title = @"更多安全设置";
-    
-    zhSettingsGroup *group = [zhSettingsGroup groupWithItems:@[item1, item2, item3, item4]];
+    zhSettingsGroup *group = [zhSettingsGroup groupWithItems:@[item1, item2, item3]];
     group.headerHeight = 15;
     [self.ssGroups addObject:group];
 }

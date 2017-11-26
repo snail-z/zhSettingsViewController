@@ -12,7 +12,7 @@ zhSettingsViewController can quickly help you make the project settings page.
 ## Preview
 
 <img src="https://github.com/snail-z/zhSettingsViewController/blob/master/preview/preview_1.jpg?raw=true" width="224px" height="366px">
-<img src="https://github.com/snail-z/zhSettingsViewController/blob/master/preview/preview_2.jpg?raw=true" width="224px" height="366px">
+<img src="https://github.com/snail-z/zhSettingsViewController/blob/master/preview/preview_2.jpg?raw=true.jpg?raw=true" width="224px" height="366px">
 
 ## Author
 

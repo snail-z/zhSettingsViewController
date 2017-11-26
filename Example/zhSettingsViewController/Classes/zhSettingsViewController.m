@@ -27,6 +27,7 @@
     CGRect rect = self.view.frame;
     _ssTableView = [[UITableView alloc] initWithFrame:rect style:UITableViewStyleGrouped];
     _ssTableView.backgroundColor = [UIColor clearColor];
+    _ssTableView.showsVerticalScrollIndicator = NO;
     _ssTableView.dataSource = self;
     _ssTableView.delegate = self;
     [self.view addSubview:_ssTableView];

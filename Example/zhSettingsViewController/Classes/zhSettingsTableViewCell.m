@@ -73,29 +73,31 @@
     };
     
     if (_item.isPositionSwapIcon) {
+        CGFloat iconX = _item.paddingLeft;
         if (_ssTitleLabel.text.length) {
             CGSize titleSize = [_ssTitleLabel sizeThatFits:CGSizeMake(size.width / 2, size.height)];
             _ssTitleLabel.frame = CGRectMake(_item.paddingLeft, makeY(titleSize.height), titleSize.width, titleSize.height);
+            iconX = CGRectGetMaxX(_ssTitleLabel.frame) + _item.subSpacingLeft;
         }
         if (_ssIconView.image) {
             CGFloat iconH = _item.cellHeight - 2 * _item.iconInsets;
             CGFloat factor = _ssIconView.image.size.width / _ssIconView.image.size.height;
             CGFloat iconW = iconH * factor;
-            CGFloat iconX = CGRectGetMaxX(_ssTitleLabel.frame) + _item.subSpacingLeft;
             _ssIconView.frame = CGRectMake(iconX, makeY(iconH), iconW, iconH);
             _ssIconView.layer.cornerRadius = _item.iconCornerRadius;
         }
     } else {
+        CGFloat titleX = _item.paddingLeft;
         if (_ssIconView.image) {
             CGFloat iconH = _item.cellHeight - 2 * _item.iconInsets;
             CGFloat factor = _ssIconView.image.size.width / _ssIconView.image.size.height;
             CGFloat iconW = iconH * factor;
             _ssIconView.frame = CGRectMake(_item.paddingLeft, makeY(iconH), iconW, iconH);
             _ssIconView.layer.cornerRadius = _item.iconCornerRadius;
+            titleX = CGRectGetMaxX(_ssIconView.frame) + _item.subSpacingLeft;
         }
         if (_ssTitleLabel.text.length) {
             CGSize titleSize = [_ssTitleLabel sizeThatFits:CGSizeMake(size.width / 2, size.height)];
-            CGFloat titleX = CGRectGetMaxX(_ssIconView.frame) + _item.subSpacingLeft;
             _ssTitleLabel.frame = CGRectMake(titleX, makeY(titleSize.height), titleSize.width, titleSize.height);
         }
     }

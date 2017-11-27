@@ -195,8 +195,12 @@
         [_ssAccessoryView addSubview:_item.accessoryCustomView];
     } else if ([_item isKindOfClass:[zhSettingsArrowItem class]]) {
         zhSettingsArrowItem *item = (zhSettingsArrowItem*)_item;
-        self.ssAccessoryImageView.frame = CGRectMake(0, 0, item.arrowSize.width, item.arrowSize.height);
-        self.ssAccessoryImageView.image = item.arrowImage;
+        if (item.arrowImage) {
+            CGFloat factor = item.arrowImage.size.width / item.arrowImage.size.height;
+            CGFloat arrowH = item.arrowWidth / factor;
+            self.ssAccessoryImageView.frame = CGRectMake(0, 0, item.arrowWidth, arrowH);
+            self.ssAccessoryImageView.image = item.arrowImage;
+        }
         [_ssAccessoryView addSubview:self.ssAccessoryImageView];
     } else if ([_item isKindOfClass:[zhSettingsSwitchItem class]]) {
         zhSettingsSwitchItem *item = (zhSettingsSwitchItem*)_item;

@@ -11,6 +11,6 @@
 
 @property (nonatomic, copy) void (^handleEventsBlock)(zhSettingsArrowItem *item);
 @property (nonatomic, strong) UIImage *arrowImage;
-@property (nonatomic, assign) CGSize arrowSize;
+@property (nonatomic, assign) CGFloat arrowWidth;
 
 @end

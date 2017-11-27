@@ -125,6 +125,7 @@
     zhSettingsGroup *group = [zhSettingsGroup groupWithItems:@[item1]];
     group.headerHeight = 15;
     group.footerHeight = 70;
+    group.verticalInsets = 7;
     group.footerText = @"如果遇到账号信息泄露、忘记密码、诈骗等账号安全问题，可前往微信安全中心。";
     [self.ssGroups addObject:group];
 }

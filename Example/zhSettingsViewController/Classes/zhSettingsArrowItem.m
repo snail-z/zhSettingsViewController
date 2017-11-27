@@ -14,11 +14,9 @@
     return [UIImage imageNamed:@"ss_arrows"];
 }
 
-- (CGSize)arrowSize {
-    if (CGSizeEqualToSize(CGSizeZero, _arrowSize)) {
-        return CGSizeMake(6, 15);
-    }
-    return _arrowSize;
+- (CGFloat)arrowWidth {
+    if (_arrowWidth) return _arrowWidth;
+    return 6;
 }
 
 @end

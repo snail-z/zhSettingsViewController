@@ -65,6 +65,8 @@
     zhSettingsArrowItem *item1 = [zhSettingsArrowItem new];
     item1.title = @"摇一摇";
     item1.iconImage = [UIImage imageNamed:@"ss_IconShake"];
+    item1.arrowImage = [UIImage imageNamed:@"ss_check"];
+    item1.arrowWidth = 15;
     item1.handleEventsBlock = ^(zhSettingsArrowItem *item) {
         NSLog(@"%@", item.title);
     };

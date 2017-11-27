@@ -24,11 +24,6 @@
     return 15;
 }
 
-- (CGFloat)verticalInsets {
-    if (_verticalInsets) return _verticalInsets;
-    return 7;
-}
-
 - (CGFloat)headerHeight {
     if (_headerHeight) return _headerHeight;
     if (self.headerText) return 35;

@@ -38,8 +38,11 @@
         limitWidth = _headerGroup.headerTextWidthLimit;
     }
     CGSize textSize = [_ssTextLabel sizeThatFits:CGSizeMake(limitWidth, MAXFLOAT)];
-    CGFloat textY = size.height - textSize.height - _headerGroup.verticalInsets;
-    _ssTextLabel.frame = CGRectMake(_headerGroup.paddingLeft, textY, textSize.width, textSize.height);
+    CGFloat textTop = (_headerGroup.headerHeight - textSize.height) / 2;
+    if (_headerGroup.verticalInsets) {
+        textTop = size.height - textSize.height - _headerGroup.verticalInsets;
+    }
+    _ssTextLabel.frame = CGRectMake(_headerGroup.paddingLeft, textTop, textSize.width, textSize.height);
 }
 
 - (void)setFooterGroup:(zhSettingsGroup *)footerGroup {
@@ -55,7 +58,11 @@
         limitWidth = _footerGroup.footerTextWidthLimit;
     }
     CGSize textSize = [_ssTextLabel sizeThatFits:CGSizeMake(limitWidth, size.height)];
-    _ssTextLabel.frame = CGRectMake(_footerGroup.paddingLeft, _footerGroup.verticalInsets, textSize.width, textSize.height);
+    CGFloat textTop = (_footerGroup.footerHeight - textSize.height) / 2;
+    if (_footerGroup.verticalInsets) {
+        textTop = _footerGroup.verticalInsets;
+    }
+    _ssTextLabel.frame = CGRectMake(_footerGroup.paddingLeft, textTop, textSize.width, textSize.height);
 }
 
 @end

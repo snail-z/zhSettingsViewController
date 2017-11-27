@@ -41,25 +41,25 @@
 		69D9D1970F8C5AE371DC1BF8AE280028 /* Pods-zhSettingsViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6ED0256DFF371E24FD4503B72FC122F1 /* Pods-zhSettingsViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-zhSettingsViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		831D7055F6CC9FB6DE738AF3DF4F698B /* zhSettingsViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "zhSettingsViewController-dummy.m"; sourceTree = "<group>"; };
-		8706B287622DD61808C587C56F410B0C /* zhSettingsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = zhSettingsViewController.modulemap; sourceTree = "<group>"; };
+		8706B287622DD61808C587C56F410B0C /* zhSettingsViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = zhSettingsViewController.modulemap; sourceTree = "<group>"; };
 		8F4C54D1B937B1A40625594F48247725 /* Pods-zhSettingsViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-zhSettingsViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		985BB4638D5DA6C9CD3DC955E0CA7620 /* Pods-zhSettingsViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A833A490FDF94DC3DBA74065403EDAB2 /* Pods-zhSettingsViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zhSettingsViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		A85F4BB2B96D3A8F8358E1390E034277 /* Pods_zhSettingsViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zhSettingsViewController_Example.framework; path = "Pods-zhSettingsViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A833A490FDF94DC3DBA74065403EDAB2 /* Pods-zhSettingsViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-zhSettingsViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		A85F4BB2B96D3A8F8358E1390E034277 /* Pods_zhSettingsViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhSettingsViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A920E9F37AAC170039C5BC47298F2002 /* Pods-zhSettingsViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B9A305C6D263FE25A3E5D2C8835AAE2D /* Pods-zhSettingsViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-zhSettingsViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		C0D598CC0BBE1788D4BD9B71E22AA792 /* Pods-zhSettingsViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		C139A6E5555CE16226CB76DBE558C513 /* Pods-zhSettingsViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C5045A6E6A4FBE196968370DC9D490D6 /* Pods-zhSettingsViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-zhSettingsViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C732F5CB48ABD5C95B87A3D161D2CE29 /* Pods_zhSettingsViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_zhSettingsViewController_Tests.framework; path = "Pods-zhSettingsViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C732F5CB48ABD5C95B87A3D161D2CE29 /* Pods_zhSettingsViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zhSettingsViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3C4DBF0724A4EEF4DD272678FF3A95 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB51D913527F316789AB9357B68FE66C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1EF88B18C379A1F42ACC60023FEAC2 /* Pods-zhSettingsViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Tests-resources.sh"; sourceTree = "<group>"; };
-		DE2711AE304103D6F159C4D84BD2033C /* zhSettingsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = zhSettingsViewController.framework; path = zhSettingsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE2711AE304103D6F159C4D84BD2033C /* zhSettingsViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = zhSettingsViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA012EDFFAD6F859259BFF548C32BFF0 /* Pods-zhSettingsViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-zhSettingsViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F2CF88B3ADBF566500E3D008B729F286 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2D3F35FBF51F466ABDEFD8537AF437B /* Pods-zhSettingsViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-zhSettingsViewController_Example.modulemap"; sourceTree = "<group>"; };
+		F2D3F35FBF51F466ABDEFD8537AF437B /* Pods-zhSettingsViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-zhSettingsViewController_Example.modulemap"; sourceTree = "<group>"; };
 		F4FB0A4D2E659C004FF7661429D810A3 /* zhSettingsViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = zhSettingsViewController.xcconfig; sourceTree = "<group>"; };
 		F957C2AC79697F33B52681054DDAC0F6 /* Pods-zhSettingsViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-zhSettingsViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -295,7 +295,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,7 +364,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -372,14 +374,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -582,7 +590,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -590,15 +600,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",

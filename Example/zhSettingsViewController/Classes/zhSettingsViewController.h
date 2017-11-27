@@ -17,4 +17,8 @@
 @property (nonatomic, strong) NSMutableArray<zhSettingsGroup *> *ssGroups;
 @property (nonatomic, strong, readonly) UITableView *ssTableView;
 
+// override methods. used to modify certain attributes uniformly
+- (zhSettingsGroup *)ss_unifiedChangeWithGroup:(zhSettingsGroup *)group;
+- (zhSettingsItem *)ss_unifiedChangeWithItem:(zhSettingsItem *)item;
+
 @end

@@ -67,6 +67,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     zhSettingsGroup *group = self.ssGroups[section];
+    group =  [self ss_unifiedChangeWithGroup:group];
     return group.items.count;
 }
 
@@ -74,6 +75,7 @@
     zhSettingsTableViewCell *cell = [zhSettingsTableViewCell cellWithTableView:tableView];
     zhSettingsGroup *group = self.ssGroups[indexPath.section];
     zhSettingsItem *item = group.items[indexPath.row];
+    item = [self ss_unifiedChangeWithItem:item];
     cell.item = item;
     if ([item isKindOfClass:[zhSettingsArrowItem class]]) {
         cell.selectionStyle = UITableViewCellSelectionStyleDefault;
@@ -105,6 +107,14 @@
     if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
         [cell setLayoutMargins:self.ssSeparatorInset];
     }
+}
+
+- (zhSettingsGroup *)ss_unifiedChangeWithGroup:(zhSettingsGroup *)group {
+    return group;
+}
+
+- (zhSettingsItem *)ss_unifiedChangeWithItem:(zhSettingsItem *)item {
+    return item;
 }
 
 @end
